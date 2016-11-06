@@ -1,0 +1,18 @@
+﻿<div style="height:100%; width: 100%;overflow: hidden; margin-bottom:74px">
+    <div align="center" class="row" style="background-color:#F2F2F2;">
+        <div class="col-xs-12" style="padding: 25px 0px 25px 0px;">
+            <div align="center" style="font-size: 25px;
+  color: grey;
+  font-weight: 700;color: grey;">{{dateString}}</div>
+        </div>
+    </div>
+    <div class="row" ng-click="returnEventInfo(eventsElement)" ng-repeat="eventsElement in eventsElements">
+        <div class="col-xs-12" ng-class="eventsElement.class" style="font-size: 19px;  padding: 20px 15px 20px 15px;">
+            <div style=" display: inline-block; width: 80%;" ng-bind-html="eventsElement.object.name"></div>
+            <div style=" display: inline-block; float:right" ng-bing="eventsElement.object.time"></div>
+        </div>
+    </div>
+</div>
+<div class="bottomFixed">
+    <div class="backImage" ng-click="returnEventsCalendar()"></div>
+</div>

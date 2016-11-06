@@ -1,0 +1,15 @@
+﻿<div style="height:100%; width: 100%;overflow: hidden; margin-bottom:74px">
+    <div align="center" class="row" style="background-color:#F2F2F2;">
+        <div class="col-xs-12" style="padding: 25px 0px 25px 0px;">
+            <div align="center" class="fontTitle" style="font-size: 25px;color: grey;font-weight: 700;color: grey;">Aттракционы</div>
+        </div>
+    </div>
+    <div ng-click="returnAttractionsSecondMenu(attractionsTag)" ng-repeat="attractionsTag in attractionsTags" align="center">
+        <div class="col-xs-12" ng-class="attractionsTag.class" style="font-size: 20px;  padding: 35px 0px 35px 0px">
+            <div align="center" class="fontBody" ng-bind-html="attractionsTag.value"></div>
+        </div>
+    </div>
+</div>
+<div class="bottomFixed">
+    <div class="backImage" ng-click="returnMainMenu()"></div>
+</div>

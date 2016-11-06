@@ -1,0 +1,17 @@
+﻿<div style="height:100%; width: 100%;overflow: hidden; margin-bottom:74px">
+    <div align="center" class="row" style="background-color:#F2F2F2;">
+        <div class="col-xs-12" style="padding: 25px 0px 25px 0px;">
+            <div align="center" style="font-size: 25px;
+  color: grey;
+  font-weight: 700;color: grey;" ng-bind-html="selectedTag"></div>
+        </div>
+    </div>
+    <div class="row" ng-click="returnFoodInfo(foodElement)" ng-repeat="foodElement in foodElements">
+        <div class="col-lg-12" ng-class="foodElement.class" style="font-size: 19px;  padding: 20px 15px 20px 15px;">
+            <div style=" display: inline-block;" ng-bind-html="foodElement.object.name"></div>
+        </div>
+    </div>
+</div>
+<div class="bottomFixed">
+    <div class="backImage" ng-click="returnFoodFirstMenu()"></div>
+</div>

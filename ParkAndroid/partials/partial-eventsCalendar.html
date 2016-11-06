@@ -1,0 +1,36 @@
+﻿<div style="height:100%; width: 100%;overflow: hidden; margin-bottom:74px">
+    <div class="row" ng-click="secret()">
+        <div class="col-xs-12" style="padding: 0px 0px 0px 0px;" aling="center">
+            <ul rn-carousel rn-carousel-auto-slide rn-carousel-transition="slide" id="sliderul" class="image" style="width:100%" ng-style="{height: myHeight}">
+                <li ng-repeat=" slide in slides">
+                    <div class="layer">
+                        <img class="alignLeft" ng-src="{{slide.image}}" id="sliderimg" align="middle" style="width:100%; position: absolute;margin: auto;top: 0;left: 0;right: 0;bottom: 0;" ng-style="{height: myHeight}" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" ng-hide="!datePickerShow" style="margin-top: 15px;">
+        <div class="col-xs-12">
+            <datepicker ng-model="valueDate"
+                        ng-change="returnEventsList(valueDate)"
+                        show-weeks="false"
+                        date-disabled="isDateDisabled(date,mode)"
+                        jm-dp-refresh-view="dateDisablePromise"
+                        custom-class="getDayClass(date, mode)"
+                        class="well well-sm" style="width: 100%;">
+                        
+                        
+            </datepicker>
+        </div>
+    </div>
+    <div class="row" ng-hide="datePickerShow" style="margin-top: 15px;">
+        <div class="col-xs-12" style="color:grey; font-size: 15px;">
+            Отсутсвует подключение к интернету
+        </div>
+    </div>
+</div>
+<div class="bottomFixed">
+    <div class="backImage" ng-click="returnMainMenu()"></div>
+</div>

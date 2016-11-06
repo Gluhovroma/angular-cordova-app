@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|iOS">
+      <Configuration>Debug</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-x64">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-x86">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows Phone 8">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows Phone (Universal)">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android">
+      <Configuration>Release</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|iOS">
+      <Configuration>Release</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-x64">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-x86">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-ARM">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows Phone 8">
+      <Configuration>Release</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows Phone (Universal)">
+      <Configuration>Release</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Android">
+      <Configuration>Distribution</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|iOS">
+      <Configuration>Distribution</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-AnyCPU">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-x64">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-x86">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-ARM">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows Phone 8">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows Phone (Universal)">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>6cfb23b1-f591-48b6-b7ac-4660e039f494</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DefaultReferenceGroup>Implicit (Multi-Device Apps)</DefaultReferenceGroup>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0'">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="content\angular-modules\angular-carousel\angular-carousel.css" />
+    <Content Include="content\angular-modules\angular-carousel\angular-carousel.js" />
+    <Content Include="content\angular-modules\angular-notify\angular-notify.css" />
+    <Content Include="content\angular-modules\angular-notify\angular-notify.js" />
+    <Content Include="content\angular-modules\angular-sanitize.js" />
+    <Content Include="content\angular-modules\angular-socialshare.min.js" />
+    <Content Include="content\angular-modules\angular-touch.js" />
+    <Content Include="content\angular-modules\angular-ui-router.min.js" />
+    <Content Include="content\angular-modules\angular-utf8-base64.js" />
+    <Content Include="content\angular-modules\bootstrap-ui\angular-locale_ru.js" />
+    <Content Include="content\angular-modules\bootstrap-ui\ui-bootstrap-tpls-0.11.0.js" />
+    <Content Include="content\angular-modules\ngStorage.js" />
+    <Content Include="content\css\bootstrap.css" />
+    <Content Include="content\css\index.css" />
+    <Content Include="content\fonts\8126411.ttf" />
+    <Content Include="content\fonts\DS_Goose.ttf" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="content\images\btnBack.png" />
+    <Content Include="content\images\btnLike.png" />
+    <Content Include="content\images\btnPlace.png" />
+    <Content Include="content\images\map_2x.png" />
+    <Content Include="content\images\marker-icon-red.png" />
+    <Content Include="content\images\park.png" />
+    <Content Include="content\images\park_2x.png" />
+    <Content Include="content\images\park_g_03.png" />
+    <Content Include="content\images\park_g_05.png" />
+    <Content Include="content\images\park_g_07.png" />
+    <Content Include="content\images\t1_2x.png" />
+    <Content Include="content\images\t2_2x.png" />
+    <Content Include="content\images\t3_2x.png" />
+    <Content Include="content\images\t4_2x.png" />
+    <Content Include="merges\android\scripts\android2.3-jscompat.js" />
+    <Content Include="merges\android\scripts\platformOverrides.js" />
+    <Content Include="partials\partial-itemCard.html" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\.fetch.json" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\CONTRIBUTING.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\de\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\es\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\fr\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\it\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\ja\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\ko\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\pl\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\ru\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\doc\zh\index.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\LICENSE" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\NOTICE" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\package.json" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\plugin.xml" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\README.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\RELEASENOTES.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\amazon\InAppBrowser.java" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\amazon\InAppChromeClient.java" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\InAppBrowser.java" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\InAppBrowserDialog.java" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\InAppChromeClient.java" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-hdpi\ic_action_next_item.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-hdpi\ic_action_previous_item.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-hdpi\ic_action_remove.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-mdpi\ic_action_next_item.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-mdpi\ic_action_previous_item.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-mdpi\ic_action_remove.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-xhdpi\ic_action_next_item.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-xhdpi\ic_action_previous_item.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-xhdpi\ic_action_remove.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-xxhdpi\ic_action_next_item.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-xxhdpi\ic_action_previous_item.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\android\res\drawable-xxhdpi\ic_action_remove.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\blackberry10\README.md" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\firefoxos\InAppBrowserProxy.js" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\ios\CDVInAppBrowser.h" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\ios\CDVInAppBrowser.m" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\ubuntu\close.png" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\ubuntu\inappbrowser.cpp" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\ubuntu\inappbrowser.h" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\ubuntu\InAppBrowser.qml" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\src\wp\InAppBrowser.cs" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\tests\plugin.xml" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\tests\resources\inject.css" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\tests\resources\inject.html" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\tests\resources\inject.js" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\tests\resources\local.html" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\tests\resources\local.pdf" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\tests\resources\video.html" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\tests\tests.js" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js" />
+    <Content Include="plugins\org.apache.cordova.inappbrowser\www\windows8\InAppBrowserProxy.js" />
+    <Content Include="res\icons\android\icon-36-ldpi.png" />
+    <Content Include="res\icons\android\icon-48-mdpi.png" />
+    <Content Include="res\icons\android\icon-72-hdpi.png" />
+    <Content Include="res\icons\android\icon-96-xhdpi.png" />
+    <Content Include="res\screens\android\screen-hdpi-portrait.png" />
+    <Content Include="res\screens\android\screen-ldpi-portrait.png" />
+    <Content Include="res\screens\android\screen-mdpi-portrait.png" />
+    <Content Include="res\screens\android\screen-xhdpi-portrait.png" />
+    <Content Include="scripts\app\controllers\itemCardControllers.js" />
+    <Content Include="scripts\app\controllers\mainController.js" />
+    <Content Include="scripts\libs\leaflet\images\layers-2x.png" />
+    <Content Include="scripts\libs\leaflet\images\layers.png" />
+    <Content Include="scripts\libs\leaflet\images\marker-icon@2x.png" />
+    <Content Include="scripts\libs\leaflet\images\marker-icon.png" />
+    <Content Include="scripts\libs\leaflet\images\marker-shadow.png" />
+    <Content Include="scripts\libs\leaflet\leaflet.css" />
+    <Content Include="scripts\libs\leaflet\leaflet.js" />
+    <Content Include="sourse\6\tile-0-0.png" />
+    <Content Include="sourse\6\tile-0-1.png" />
+    <Content Include="sourse\6\tile-1-0.png" />
+    <Content Include="sourse\6\tile-1-1.png" />
+    <Content Include="sourse\6\tile-2-0.png" />
+    <Content Include="sourse\6\tile-2-1.png" />
+    <Content Include="sourse\7\tile-0-0.png" />
+    <Content Include="sourse\7\tile-0-1.png" />
+    <Content Include="sourse\7\tile-0-2.png" />
+    <Content Include="sourse\7\tile-1-0.png" />
+    <Content Include="sourse\7\tile-1-1.png" />
+    <Content Include="sourse\7\tile-1-2.png" />
+    <Content Include="sourse\7\tile-2-0.png" />
+    <Content Include="sourse\7\tile-2-1.png" />
+    <Content Include="sourse\7\tile-2-2.png" />
+    <Content Include="sourse\7\tile-3-0.png" />
+    <Content Include="sourse\7\tile-3-1.png" />
+    <Content Include="sourse\7\tile-3-2.png" />
+    <Content Include="sourse\7\tile-4-0.png" />
+    <Content Include="sourse\7\tile-4-1.png" />
+    <Content Include="sourse\7\tile-4-2.png" />
+    <Content Include="sourse\8\tile-0-0.png" />
+    <Content Include="sourse\8\tile-0-1.png" />
+    <Content Include="sourse\8\tile-0-2.png" />
+    <Content Include="sourse\8\tile-0-3.png" />
+    <Content Include="sourse\8\tile-0-4.png" />
+    <Content Include="sourse\8\tile-0-5.png" />
+    <Content Include="sourse\8\tile-1-0.png" />
+    <Content Include="sourse\8\tile-1-1.png" />
+    <Content Include="sourse\8\tile-1-2.png" />
+    <Content Include="sourse\8\tile-1-3.png" />
+    <Content Include="sourse\8\tile-1-4.png" />
+    <Content Include="sourse\8\tile-1-5.png" />
+    <Content Include="sourse\8\tile-2-0.png" />
+    <Content Include="sourse\8\tile-2-1.png" />
+    <Content Include="sourse\8\tile-2-2.png" />
+    <Content Include="sourse\8\tile-2-3.png" />
+    <Content Include="sourse\8\tile-2-4.png" />
+    <Content Include="sourse\8\tile-2-5.png" />
+    <Content Include="sourse\8\tile-3-0.png" />
+    <Content Include="sourse\8\tile-3-1.png" />
+    <Content Include="sourse\8\tile-3-2.png" />
+    <Content Include="sourse\8\tile-3-3.png" />
+    <Content Include="sourse\8\tile-3-4.png" />
+    <Content Include="sourse\8\tile-3-5.png" />
+    <Content Include="sourse\8\tile-4-0.png" />
+    <Content Include="sourse\8\tile-4-1.png" />
+    <Content Include="sourse\8\tile-4-2.png" />
+    <Content Include="sourse\8\tile-4-3.png" />
+    <Content Include="sourse\8\tile-4-4.png" />
+    <Content Include="sourse\8\tile-4-5.png" />
+    <Content Include="sourse\8\tile-5-0.png" />
+    <Content Include="sourse\8\tile-5-1.png" />
+    <Content Include="sourse\8\tile-5-2.png" />
+    <Content Include="sourse\8\tile-5-3.png" />
+    <Content Include="sourse\8\tile-5-4.png" />
+    <Content Include="sourse\8\tile-5-5.png" />
+    <Content Include="sourse\8\tile-6-0.png" />
+    <Content Include="sourse\8\tile-6-1.png" />
+    <Content Include="sourse\8\tile-6-2.png" />
+    <Content Include="sourse\8\tile-6-3.png" />
+    <Content Include="sourse\8\tile-6-4.png" />
+    <Content Include="sourse\8\tile-6-5.png" />
+    <Content Include="sourse\8\tile-7-0.png" />
+    <Content Include="sourse\8\tile-7-1.png" />
+    <Content Include="sourse\8\tile-7-2.png" />
+    <Content Include="sourse\8\tile-7-3.png" />
+    <Content Include="sourse\8\tile-7-4.png" />
+    <Content Include="sourse\8\tile-7-5.png" />
+    <Content Include="sourse\8\tile-8-0.png" />
+    <Content Include="sourse\8\tile-8-1.png" />
+    <Content Include="sourse\8\tile-8-2.png" />
+    <Content Include="sourse\8\tile-8-3.png" />
+    <Content Include="sourse\8\tile-8-4.png" />
+    <Content Include="sourse\8\tile-8-5.png" />
+    <Content Include="sourse\9\tile-0-0.png" />
+    <Content Include="sourse\9\tile-0-1.png" />
+    <Content Include="sourse\9\tile-0-10.png" />
+    <Content Include="sourse\9\tile-0-2.png" />
+    <Content Include="sourse\9\tile-0-3.png" />
+    <Content Include="sourse\9\tile-0-4.png" />
+    <Content Include="sourse\9\tile-0-5.png" />
+    <Content Include="sourse\9\tile-0-6.png" />
+    <Content Include="sourse\9\tile-0-7.png" />
+    <Content Include="sourse\9\tile-0-8.png" />
+    <Content Include="sourse\9\tile-0-9.png" />
+    <Content Include="sourse\9\tile-1-0.png" />
+    <Content Include="sourse\9\tile-1-1.png" />
+    <Content Include="sourse\9\tile-1-10.png" />
+    <Content Include="sourse\9\tile-1-2.png" />
+    <Content Include="sourse\9\tile-1-3.png" />
+    <Content Include="sourse\9\tile-1-4.png" />
+    <Content Include="sourse\9\tile-1-5.png" />
+    <Content Include="sourse\9\tile-1-6.png" />
+    <Content Include="sourse\9\tile-1-7.png" />
+    <Content Include="sourse\9\tile-1-8.png" />
+    <Content Include="sourse\9\tile-1-9.png" />
+    <Content Include="sourse\9\tile-10-0.png" />
+    <Content Include="sourse\9\tile-10-1.png" />
+    <Content Include="sourse\9\tile-10-10.png" />
+    <Content Include="sourse\9\tile-10-2.png" />
+    <Content Include="sourse\9\tile-10-3.png" />
+    <Content Include="sourse\9\tile-10-4.png" />
+    <Content Include="sourse\9\tile-10-5.png" />
+    <Content Include="sourse\9\tile-10-6.png" />
+    <Content Include="sourse\9\tile-10-7.png" />
+    <Content Include="sourse\9\tile-10-8.png" />
+    <Content Include="sourse\9\tile-10-9.png" />
+    <Content Include="sourse\9\tile-11-0.png" />
+    <Content Include="sourse\9\tile-11-1.png" />
+    <Content Include="sourse\9\tile-11-10.png" />
+    <Content Include="sourse\9\tile-11-2.png" />
+    <Content Include="sourse\9\tile-11-3.png" />
+    <Content Include="sourse\9\tile-11-4.png" />
+    <Content Include="sourse\9\tile-11-5.png" />
+    <Content Include="sourse\9\tile-11-6.png" />
+    <Content Include="sourse\9\tile-11-7.png" />
+    <Content Include="sourse\9\tile-11-8.png" />
+    <Content Include="sourse\9\tile-11-9.png" />
+    <Content Include="sourse\9\tile-12-0.png" />
+    <Content Include="sourse\9\tile-12-1.png" />
+    <Content Include="sourse\9\tile-12-10.png" />
+    <Content Include="sourse\9\tile-12-2.png" />
+    <Content Include="sourse\9\tile-12-3.png" />
+    <Content Include="sourse\9\tile-12-4.png" />
+    <Content Include="sourse\9\tile-12-5.png" />
+    <Content Include="sourse\9\tile-12-6.png" />
+    <Content Include="sourse\9\tile-12-7.png" />
+    <Content Include="sourse\9\tile-12-8.png" />
+    <Content Include="sourse\9\tile-12-9.png" />
+    <Content Include="sourse\9\tile-13-0.png" />
+    <Content Include="sourse\9\tile-13-1.png" />
+    <Content Include="sourse\9\tile-13-10.png" />
+    <Content Include="sourse\9\tile-13-2.png" />
+    <Content Include="sourse\9\tile-13-3.png" />
+    <Content Include="sourse\9\tile-13-4.png" />
+    <Content Include="sourse\9\tile-13-5.png" />
+    <Content Include="sourse\9\tile-13-6.png" />
+    <Content Include="sourse\9\tile-13-7.png" />
+    <Content Include="sourse\9\tile-13-8.png" />
+    <Content Include="sourse\9\tile-13-9.png" />
+    <Content Include="sourse\9\tile-14-0.png" />
+    <Content Include="sourse\9\tile-14-1.png" />
+    <Content Include="sourse\9\tile-14-10.png" />
+    <Content Include="sourse\9\tile-14-2.png" />
+    <Content Include="sourse\9\tile-14-3.png" />
+    <Content Include="sourse\9\tile-14-4.png" />
+    <Content Include="sourse\9\tile-14-5.png" />
+    <Content Include="sourse\9\tile-14-6.png" />
+    <Content Include="sourse\9\tile-14-7.png" />
+    <Content Include="sourse\9\tile-14-8.png" />
+    <Content Include="sourse\9\tile-14-9.png" />
+    <Content Include="sourse\9\tile-15-0.png" />
+    <Content Include="sourse\9\tile-15-1.png" />
+    <Content Include="sourse\9\tile-15-10.png" />
+    <Content Include="sourse\9\tile-15-2.png" />
+    <Content Include="sourse\9\tile-15-3.png" />
+    <Content Include="sourse\9\tile-15-4.png" />
+    <Content Include="sourse\9\tile-15-5.png" />
+    <Content Include="sourse\9\tile-15-6.png" />
+    <Content Include="sourse\9\tile-15-7.png" />
+    <Content Include="sourse\9\tile-15-8.png" />
+    <Content Include="sourse\9\tile-15-9.png" />
+    <Content Include="sourse\9\tile-16-0.png" />
+    <Content Include="sourse\9\tile-16-1.png" />
+    <Content Include="sourse\9\tile-16-10.png" />
+    <Content Include="sourse\9\tile-16-2.png" />
+    <Content Include="sourse\9\tile-16-3.png" />
+    <Content Include="sourse\9\tile-16-4.png" />
+    <Content Include="sourse\9\tile-16-5.png" />
+    <Content Include="sourse\9\tile-16-6.png" />
+    <Content Include="sourse\9\tile-16-7.png" />
+    <Content Include="sourse\9\tile-16-8.png" />
+    <Content Include="sourse\9\tile-16-9.png" />
+    <Content Include="sourse\9\tile-17-0.png" />
+    <Content Include="sourse\9\tile-17-1.png" />
+    <Content Include="sourse\9\tile-17-10.png" />
+    <Content Include="sourse\9\tile-17-2.png" />
+    <Content Include="sourse\9\tile-17-3.png" />
+    <Content Include="sourse\9\tile-17-4.png" />
+    <Content Include="sourse\9\tile-17-5.png" />
+    <Content Include="sourse\9\tile-17-6.png" />
+    <Content Include="sourse\9\tile-17-7.png" />
+    <Content Include="sourse\9\tile-17-8.png" />
+    <Content Include="sourse\9\tile-17-9.png" />
+    <Content Include="sourse\9\tile-2-0.png" />
+    <Content Include="sourse\9\tile-2-1.png" />
+    <Content Include="sourse\9\tile-2-10.png" />
+    <Content Include="sourse\9\tile-2-2.png" />
+    <Content Include="sourse\9\tile-2-3.png" />
+    <Content Include="sourse\9\tile-2-4.png" />
+    <Content Include="sourse\9\tile-2-5.png" />
+    <Content Include="sourse\9\tile-2-6.png" />
+    <Content Include="sourse\9\tile-2-7.png" />
+    <Content Include="sourse\9\tile-2-8.png" />
+    <Content Include="sourse\9\tile-2-9.png" />
+    <Content Include="sourse\9\tile-3-0.png" />
+    <Content Include="sourse\9\tile-3-1.png" />
+    <Content Include="sourse\9\tile-3-10.png" />
+    <Content Include="sourse\9\tile-3-2.png" />
+    <Content Include="sourse\9\tile-3-3.png" />
+    <Content Include="sourse\9\tile-3-4.png" />
+    <Content Include="sourse\9\tile-3-5.png" />
+    <Content Include="sourse\9\tile-3-6.png" />
+    <Content Include="sourse\9\tile-3-7.png" />
+    <Content Include="sourse\9\tile-3-8.png" />
+    <Content Include="sourse\9\tile-3-9.png" />
+    <Content Include="sourse\9\tile-4-0.png" />
+    <Content Include="sourse\9\tile-4-1.png" />
+    <Content Include="sourse\9\tile-4-10.png" />
+    <Content Include="sourse\9\tile-4-2.png" />
+    <Content Include="sourse\9\tile-4-3.png" />
+    <Content Include="sourse\9\tile-4-4.png" />
+    <Content Include="sourse\9\tile-4-5.png" />
+    <Content Include="sourse\9\tile-4-6.png" />
+    <Content Include="sourse\9\tile-4-7.png" />
+    <Content Include="sourse\9\tile-4-8.png" />
+    <Content Include="sourse\9\tile-4-9.png" />
+    <Content Include="sourse\9\tile-5-0.png" />
+    <Content Include="sourse\9\tile-5-1.png" />
+    <Content Include="sourse\9\tile-5-10.png" />
+    <Content Include="sourse\9\tile-5-2.png" />
+    <Content Include="sourse\9\tile-5-3.png" />
+    <Content Include="sourse\9\tile-5-4.png" />
+    <Content Include="sourse\9\tile-5-5.png" />
+    <Content Include="sourse\9\tile-5-6.png" />
+    <Content Include="sourse\9\tile-5-7.png" />
+    <Content Include="sourse\9\tile-5-8.png" />
+    <Content Include="sourse\9\tile-5-9.png" />
+    <Content Include="sourse\9\tile-6-0.png" />
+    <Content Include="sourse\9\tile-6-1.png" />
+    <Content Include="sourse\9\tile-6-10.png" />
+    <Content Include="sourse\9\tile-6-2.png" />
+    <Content Include="sourse\9\tile-6-3.png" />
+    <Content Include="sourse\9\tile-6-4.png" />
+    <Content Include="sourse\9\tile-6-5.png" />
+    <Content Include="sourse\9\tile-6-6.png" />
+    <Content Include="sourse\9\tile-6-7.png" />
+    <Content Include="sourse\9\tile-6-8.png" />
+    <Content Include="sourse\9\tile-6-9.png" />
+    <Content Include="sourse\9\tile-7-0.png" />
+    <Content Include="sourse\9\tile-7-1.png" />
+    <Content Include="sourse\9\tile-7-10.png" />
+    <Content Include="sourse\9\tile-7-2.png" />
+    <Content Include="sourse\9\tile-7-3.png" />
+    <Content Include="sourse\9\tile-7-4.png" />
+    <Content Include="sourse\9\tile-7-5.png" />
+    <Content Include="sourse\9\tile-7-6.png" />
+    <Content Include="sourse\9\tile-7-7.png" />
+    <Content Include="sourse\9\tile-7-8.png" />
+    <Content Include="sourse\9\tile-7-9.png" />
+    <Content Include="sourse\9\tile-8-0.png" />
+    <Content Include="sourse\9\tile-8-1.png" />
+    <Content Include="sourse\9\tile-8-10.png" />
+    <Content Include="sourse\9\tile-8-2.png" />
+    <Content Include="sourse\9\tile-8-3.png" />
+    <Content Include="sourse\9\tile-8-4.png" />
+    <Content Include="sourse\9\tile-8-5.png" />
+    <Content Include="sourse\9\tile-8-6.png" />
+    <Content Include="sourse\9\tile-8-7.png" />
+    <Content Include="sourse\9\tile-8-8.png" />
+    <Content Include="sourse\9\tile-8-9.png" />
+    <Content Include="sourse\9\tile-9-0.png" />
+    <Content Include="sourse\9\tile-9-1.png" />
+    <Content Include="sourse\9\tile-9-10.png" />
+    <Content Include="sourse\9\tile-9-2.png" />
+    <Content Include="sourse\9\tile-9-3.png" />
+    <Content Include="sourse\9\tile-9-4.png" />
+    <Content Include="sourse\9\tile-9-5.png" />
+    <Content Include="sourse\9\tile-9-6.png" />
+    <Content Include="sourse\9\tile-9-7.png" />
+    <Content Include="sourse\9\tile-9-8.png" />
+    <Content Include="sourse\9\tile-9-9.png" />
+    <Folder Include="merges\ios\" />
+    <Content Include="merges\windows\scripts\platformOverrides.js" />
+    <Content Include="merges\windows\scripts\winstore-jscompat.js" />
+    <Folder Include="merges\wp8\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="partials\partial-about.html" />
+    <Content Include="partials\partial-attractionsFirstMenu.html" />
+    <Content Include="partials\partial-attractionsSecondMenu.html" />
+    <Content Include="partials\partial-direction.html" />
+    <Content Include="partials\partial-directionOnMap.html" />
+    <Content Include="partials\partial-eventsCalendar.html" />
+    <Content Include="partials\partial-eventsInfo.html" />
+    <Content Include="partials\partial-eventsList.html" />
+    <Content Include="partials\partial-foodFirstMenu.html" />
+    <Content Include="partials\partial-foodSecondMenu.html" />
+    <Content Include="partials\partial-home.html" />
+    <Content Include="partials\partial-map.html" />
+    <Content Include="partials\partial-newsInfo.html" />
+    <Content Include="partials\partial-newsMenu.html" />
+    <Content Include="scripts\app\controllers\aboutControllers.js" />
+    <Content Include="scripts\app\controllers\attractionsControllers.js" />
+    <Content Include="scripts\app\controllers\eventsControllers.js" />
+    <Content Include="scripts\app\controllers\foodControllers.js" />
+    <Content Include="scripts\app\controllers\homeController.js" />
+    <Content Include="scripts\app\controllers\mapControllers.js" />
+    <Content Include="scripts\app\controllers\newsControllers.js" />
+    <Content Include="scripts\app\index.js" />
+    <Content Include="scripts\app\services\services.js" />
+    <Content Include="scripts\libs\dateFormat.js" />
+    <Content Include="scripts\platformOverrides.js" />
+    <Content Include="res\native\android\ant.properties" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <DefaultReferenceGroup>Implicit (Multi-Device Apps)</DefaultReferenceGroup>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Distribution'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CordovaTools\vs-mda-targets\Microsoft.MDA.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CordovaTools\vs-mda-targets\Microsoft.TypeScript.MDA.targets" />
+  <PropertyGroup>
+    <ProjectUISubcaption>Tools for Apache Cordova</ProjectUISubcaption>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetPlatformIdentifier>MDD</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Target Name="EnsureBuildPrerequisites">
+    <!-- These errors will trigger if building from inside Visual Studio and requirements could not be determined -->
+    <Error Condition="$(MDAPropertiesEvaluated) == 'true' And $(NodeJsDir) == ''" Text="Path to NodeJs could not be determined. Please check that NodeJs has been installed." />
+    <Error Condition="$(MDAPropertiesEvaluated) == 'true' And $(MDAVsixDir) == ''" Text="Path to the Visual Studio Extension for Tools for Apache Cordova could not be determined. Please check that the extension has been installed." />
+    <!-- These errors will trigger if building from outside Visual Studio (e.g. command line) and environment variables have not been set -->
+    <Error Condition="$(MDAPropertiesEvaluated) == '' And $(NodeJsDir) == ''" Text="Path to NodeJs has not been specified. Please check that NodeJs has been installed and set the NodeJsDir environment variable before building." />
+    <Error Condition="$(MDAPropertiesEvaluated) == '' And $(MDAVsixDir) == ''" Text="Path to Visual Studio Extension for Tools for Apache Cordova has not been specified. Please install it and set the MDAVsixDir environment variable before building." />
+    <!-- Sanity check that things exist in the specified places. These are more likely to fail if building outside Visual Studio and the required environment variables have not been set, or set incorrectly. -->
+    <Error Condition="!Exists('$(NodeJsDir)') Or !Exists('$(NodeJsDir)\node.exe')" Text="The specified NodeJs directory $(NodeJsDir) either does not exist, or does not contain node.exe. Please check that NodeJs has been installed, and set the NodeJsDir variable to the correct directory." />
+    <Error Condition="!Exists('$(MDAVsixDir)') Or !Exists('$(MDAVsixDir)\packages\vs-mda')" Text="The specified directory to the Visual Studio extension $(MDAVsixDir)\node.exe either does not exist, or does not contain a packages\vs-mda sub-directory. Please check that the extension directory exists and set the MDAVsixDir variable to the correct directory." />
+    <!-- Installs (if necessary) the supporting Nodejs module -->
+    <Exec Command="&quot;$(MDAVsixDir)&quot;\packages\vs-mda\install &quot;$(NodeJsDir)&quot; &quot;$(MDAVsixDir)&quot;\packages\vs-mda" />
+  </Target>
+</Project>

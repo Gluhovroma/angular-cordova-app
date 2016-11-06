@@ -1,0 +1,38 @@
+﻿<div style="height:100%; width: 100%;overflow: hidden; margin-bottom:80px">
+    <div class="row">
+        <div class="col-xs-12" style="padding: 0px 0px 0px 0px;" aling="center">
+            <ul rn-carousel rn-carousel-auto-slide rn-carousel-transition="slide" id="sliderul" class="image" style="width:100%" ng-style="{height: myHeight}">
+                <li ng-repeat=" slide in slides">
+                    <div class="layer">
+                        <img class="alignLeft" ng-src="{{slide.image}}" id="sliderimg" align="middle" style="position: absolute;margin: auto;top: 0;left: 0;right: 0;bottom: 0;width:100%" ng-style="{height: myHeight}" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12" style="margin: 10px 0px 20px 0px;width: 100%;">
+            Парк сегодня - это место досуга, находящееся в особо охраняемой территории. Ведется ежедневная работа по сохранению и развитию "зеленой" зоны.
+            Парку Горького в Перми уже более 210 лет, здесь находятся культурные памятники федерального значения. На территории в 10 га расположено порядка 50 аттракционов.
+            Это уникальное место, которое предоставляет разнообразные площадки для артистов, музыкантов, художников и принимает гостей со всего мира.
+        </div>
+    </div>
+    <div class="row" style="margin-bottom:10px">
+        <div class="col-xs-12" ng-click="returnDirection()">
+            <button class="col-xs-12 btn " style="background-color: #84DA99;color: white;">Дирекция</button>
+        </div>
+    </div>
+</div>
+<div class="row bottomFixed">
+    <div class="col-md-12" style="padding:0px 0px 0px 0px">
+        <div  style="padding-left:0px; display: inline-block;">
+            <div class="backImage" ng-click="returnMainMenu()"></div>
+        </div>            
+                <div  style="display: inline-block;float: right;margin-top: 30px;font-size: 15px;margin-right: 20px;">
+                    <a href="#" onclick="window.open('http://www.parkperm.ru', '_system');">На сайт</a>
+                </div>
+            </div>
+    </div>
+
+
+    

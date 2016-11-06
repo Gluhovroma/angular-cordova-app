@@ -1,0 +1,232 @@
+﻿@font-face {
+  font-family: aFuturaRound;
+  src: url(../fonts/8126411.ttf) format("opentype");
+}
+
+
+.font{
+    font-family:aFuturaRound;
+}
+
+body {
+    
+    width:100%;
+}
+p {
+      margin: 0 0 0;
+}
+.well-sm {
+    width:100%;
+}
+.popover-content {
+padding: 0px 0px 0px 0px
+}
+.mainAttractionButton {
+      width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+   -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  background-image: url(../images/t1_2x.png);
+  background-repeat: no-repeat;
+  height: 110px;
+  background-position: center 10px;
+  padding: 82px 0px 0px 0px;
+  font-size: 14px;
+  border-radius: 12px;
+  
+  border: 1px solid #A9A9A9;
+  
+}
+.mainFoodButton {
+    width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+   -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  background-image: url(../images/t2_2x.png);
+  background-repeat: no-repeat;
+  height: 110px;
+  background-position: center 8px;
+  padding: 82px 0px 0px 0px;
+  font-size: 14px;
+  border-radius: 12px;
+  
+  border: 1px solid #A9A9A9;
+  
+}
+.mainEventButton {
+      width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+   -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  background-image: url(../images/t3_2x.png);
+  background-repeat: no-repeat;
+  height: 110px;
+  background-position: center 10px;
+  padding: 85px 0px 0px 0px;
+  font-size: 14px;
+  border-radius: 12px;
+  
+  border: 1px solid #A9A9A9;
+  
+}
+.mainNewsButton {
+    width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+   -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  background-image: url(../images/t4_2x.png);
+  background-repeat: no-repeat;
+  height: 110px;
+  background-position: center 8px;
+  padding: 85px 0px 0px 0px;
+  font-size: 14px;
+  border-radius: 12px;
+  
+  border: 1px solid #A9A9A9;
+  
+  
+}
+.mainAboutButton {
+    width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+   -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  background-image: url(../images/park_2x.png);
+  background-repeat: no-repeat;
+  height: 110px;
+  background-position: center 10px;
+  padding: 85px 0px 0px 0px;
+  font-size: 14px;
+  border-radius: 12px;
+  
+  border: 1px solid #A9A9A9;
+  
+}
+.mainMapButton {
+      width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+   -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+  background-image: url(../images/map_2x.png);
+  background-repeat: no-repeat;
+  height: 110px;
+  background-position: center 9px;
+  padding: 85px 0px 0px 0px;
+  font-size: 14px;
+  border-radius: 12px;
+  
+  border: 1px solid #A9A9A9;
+  
+}
+.backImage {
+    background-image: url(../images/btnBack.png);
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 65px;
+    background-position: center;
+    opacity: 0.6;
+    float: left;
+    margin-left: 15px;
+}
+.likeImage {
+    background-image: url(../images/btnLike.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 65px;
+    background-position: center;
+    opacity: 0.6;
+    
+}
+.mapImage {
+    background-image: url(../images/btnPlace.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 65px;
+    background-position: center;
+    opacity: 0.6;
+    float: right;
+    margin-right: 15px;
+}
+.attractionElem1 {
+    color:white;
+    background-color: #FED57B;
+}
+.attractionElem2 {
+    color:white;
+    background-color: #93A9C0;
+}
+.attractionElem3 {
+    color:white;
+    background-color: #78D1B1;
+}
+.attractionElem4 {
+    color:white;
+    background-color: #F97F68;
+}
+.attractionElem5 {
+    color:white;
+    background-color: #84DA99;
+}
+.attractionElem6 {
+    color:white;
+    background-color: #BA94DF;
+}
+.attractionElem0 {
+    color:white;
+    background-color: #BA94DF;
+}
+
+.attractionSecondMenu0 {
+    background-color: #84DA99;
+    color:white;
+    
+  font-size: 20px;
+  padding: 25px 0px 0px 40px;
+}
+.attractionSecondMenu1 {
+    background-color: white;
+    color:grey;
+    
+  font-size: 20px;
+  padding: 25px 0px 0px 40px;
+}
+.foodSecondMenu0 {
+    background-color: #FED57B;
+    color:white;
+    
+  font-size: 20px;
+  padding: 25px 0px 0px 40px;
+}
+.foodSecondMenu1 {
+    background-color: white;
+    color:grey;
+    
+  font-size: 20px;
+  padding: 25px 0px 0px 40px;
+}
+.bottomFixed {
+  position: fixed;
+  -webkit-backface-visibility: hidden; 
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background: #F2F2F2;
+}
+.full button span {
+  background-color: limegreen;
+  border-radius: 32px;
+  color: black;
+}

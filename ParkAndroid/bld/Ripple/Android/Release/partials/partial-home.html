@@ -1,0 +1,67 @@
+﻿<div style="background-color:#F2F2F2;" ng-style="{height: divHeight}">
+    <div class="row">
+        <div class="col-xs-12" style="padding: 0px 0px 0px 0px;" aling="center">
+            <ul rn-carousel rn-carousel-auto-slide rn-carousel-transition="slide" id="sliderul" class="image" style="width:100%; margin: 0px 0px 0px 0px" ng-style="{height: myHeight}">
+                <li ng-repeat=" slide in slides">
+                    <div class="layer">
+                        <img class="alignLeft" ng-src="{{slide.image}}" id="sliderimg" align="middle" style="position: absolute;margin: auto;top: 0;left: 0;right: 0;bottom: 0;width:100%" ng-style="{height: myHeight}" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" style="padding: 17px 5px 12px 5px; background-color:#F2F2F2;">
+        <div class="col-xs-12" style="padding: 0px 0px 0px 0px;">
+            <div class="col-xs-6" style="padding-left:17px; padding-right:17px">
+                <div align="center" class="mainAttractionButton" ng-click="returnAttractionsFirstMenu()">
+                    АТТРАКЦИОНЫ
+                </div>
+            </div>
+            <div class="col-xs-6" style="padding-left:17px; padding-right:17px">
+                <div align="center" class="mainFoodButton" ng-click="returnFoodFirstMenu()">
+                    ЕДА
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding: 4px 5px 12px 5px; background-color:#F2F2F2;">
+        <div class="col-xs-12" style="padding: 0px 0px 0px 0px;">
+            <div class="col-xs-6" style="padding-left:17px; padding-right:17px">
+                <div align="center" class="mainEventButton" ng-click="returnEvents()">
+                    СОБЫТИЯ
+                </div>
+            </div>
+            <div class="col-xs-6" style="padding-left:17px; padding-right:17px">
+                <div align="center" class="mainNewsButton" ng-click="returnNewsMenu()">
+                    НОВОСТИ
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding: 4px 5px 1px 5px; background-color:#F2F2F2;" >
+        <div class="col-xs-12" style="padding: 0px 0px 0px 0px;">
+            <div class="col-xs-6" style="padding-left:17px; padding-right:17px">
+                <div align="center" class="mainAboutButton" ng-click="returnAbout()">
+                    О ПАРКЕ
+                </div>
+            </div>
+            <div class="col-xs-6" style="padding-left:17px; padding-right:17px">
+                <div align="center" class="mainMapButton" ng-click="returnMap()">
+                    КАРТА
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background-color:#F2F2F2;height: 17px;">
+    <div ng-click="showMe();" class="row" style="display: inline-block;float: right;margin: 0px 2px 1px 10px;font-size: 15px;">
+        <div class="glyphicon glyphicon-info-sign" style="float: right;width: 17px; color: grey; opacity: 0.8;"></div>
+    </div>
+    <div ng-hide="showMeCondition" style="  float: right;font-size: 11px;margin-top: 1px;font-style: oblique;font-kerning: initial;font-weight: bold;opacity: 0.9;font-family: initial; ">
+        developed by <a href="#" onclick="window.open('https://www.linkedin.com/profile/view?id=284741227', '_system');">Roman Glukhov</a>
+    </div>
+</div>
+
+</div>
+
+
+
